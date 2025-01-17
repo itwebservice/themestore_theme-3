@@ -168,6 +168,7 @@ body {
     padding: 0;
     list-style-type: none;
     & > li {
+      align-items: center;
       color: $white;
       display: inline-flex;
       flex-direction: row;
@@ -910,6 +911,11 @@ body {
         height: 200px;
         transition: all ease 0.3s;
         border-radius: 60px;
+      }
+      &:hover {
+        img {
+          transform: scale(1.1);
+        }
       }
       .title {
         background-color: #202020;

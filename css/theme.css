@@ -142,6 +142,7 @@ body {
   list-style-type: none;
 }
 .c-header .sectionList > li {
+  align-items: center;
   color: #fff;
   display: inline-flex;
   flex-direction: row;
@@ -806,6 +807,9 @@ body {
   height: 200px;
   transition: all ease 0.3s;
   border-radius: 60px;
+}
+.c-card .card-image:hover img {
+  transform: scale(1.1);
 }
 .c-card .card-image .title {
   background-color: #202020;
